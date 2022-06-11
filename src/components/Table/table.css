@@ -1,0 +1,47 @@
+.T-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-white);
+}
+
+.T-Thead tr th {
+  padding: 0 1rem;
+  background-color: var(--seccond-dark);
+  color: var(--primary-gray);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.T-Tbody tr {
+  border: 1px solid var(--seccond-dark);
+  color: var(--primary-dark);
+}
+
+.T-Tbody tr td {
+  border: 1px solid var(--seccond-dark);
+  text-align: center;
+  padding: 0 5px;
+}
+
+.T-Tbody tr td:nth-child(4) button {
+  background-color: var(--seccond-blue);
+  color: var(--primary-white);
+}
+
+.T-Tbody tr td:nth-child(4) button:hover {
+  transition: 0.3s all ease-in-out;
+  background-color: var(--primary-blue);
+}
+
+.T-Tbody tr td:nth-child(5) button {
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+}
+
+.T-Tbody tr td:nth-child(5) button:hover {
+  transition: 0.3s all ease-in-out;
+  background-color: var(--seccond-red);
+}
