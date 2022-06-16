@@ -5,7 +5,7 @@ import './table.css'
 const Table = () => {
   return (
     <div className='T-Container'>
-      <tabe className='T-Table'>
+      <table className='T-Table'>
         <thead className='T-Thead'>
           <tr>
             <th>Nome</th>
@@ -24,7 +24,7 @@ const Table = () => {
             <td><Button name='Delete'/></td>
           </tr>
         </tbody>
-      </tabe>
+      </table>
     </div>
   )
 }
